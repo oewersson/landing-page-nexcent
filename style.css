@@ -1,0 +1,38 @@
+root {
+    --font-family: 'Inter', sans-serif;
+    --font-size: 16px;
+    --line-height: 1.5;
+    --primary-color: #28CB8B;
+    --secondary-color: #263238;
+    --background-color: #f8f9fa;
+    --border-color: #dee2e6;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 20px 140px 0 140px;
+    justify-content: space-between;
+}
+
+.nav-list-item {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list li {
+    margin: 0 10px;
+    align-items: center;
+}
+
+.nav-list a {
+    font-family: var(--font-family);
+    color: var(--secondary-color);
+    font-size: var(--font-size);
+    text-decoration: none;
+}
+
+.botao-entrar {
+    color: var(--primary-color);
+}
